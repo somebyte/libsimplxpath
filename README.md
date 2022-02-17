@@ -45,7 +45,7 @@ Briefly guide
   // You can add new elements to your xml document:
   xmldoc doc ("<root></root>", 0);
 
-  xpath_object obj = objdoc["/root"];
+  xpath_object obj = doc["/root"];
 
   if (obj.size())
     {
