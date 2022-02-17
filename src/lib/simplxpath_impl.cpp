@@ -28,7 +28,7 @@ namespace simplxpath
     _context = xmlXPathNewContext (_doc);
     if (!_context)
       {
-        cerr << "Error: unable to create new XPath context";
+        cerr << "Error: unable to create new XPath context" << endl;
         return;
       }
   }
@@ -90,7 +90,7 @@ namespace simplxpath
       {
         cerr << "Error: unable to evaluate expression \""
              << expression
-             << "\"";
+             << "\"" << endl;
 
         return nullptr;
       }
