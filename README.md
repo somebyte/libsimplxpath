@@ -3,9 +3,8 @@ The simple C++ library for using some of the libxml2 xpath capabilities
 
 Briefly guide
 -------------
-'''
+```cpp
   #include <simplxpath.hpp>
-
   using namespace libsimplxpath;
 
 // Open a new xml document:
@@ -56,5 +55,4 @@ Briefly guide
     }
 
   doc.save ("something.xml);
-'''
-
+```
