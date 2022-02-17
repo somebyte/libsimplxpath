@@ -54,5 +54,5 @@ Briefly guide
       el.new_attribute ("attr",   "value"  );
     }
 
-  doc.save ("something.xml);
+  doc.save ("something.xml");
 ```
